@@ -1,0 +1,13 @@
+  name: demo cicd
+  
+  on:
+    workflow_dispatch:
+  jobs:  
+    executing-the-cmd:
+      runs-on: ubuntu-latest
+      steps:
+        - name: checkout
+          uses: actions/checkout@v6-01
+   
+        - name: exectingthe ls command
+          run: ls -a
