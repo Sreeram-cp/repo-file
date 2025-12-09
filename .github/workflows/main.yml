@@ -7,7 +7,7 @@
       runs-on: ubuntu-latest
       steps:
         - name: checkout
-          uses: actions/checkout@v6-01
+          uses: actions/checkout@v6
    
         - name: exectingthe ls command
           run: ls -a
